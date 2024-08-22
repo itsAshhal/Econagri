@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GuideScreens_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 930f658e6cadcfd4aa0b78e1268f5389, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 11404537856
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45390983168
+    m_Localized: 'Can you build a Prosperous city without letting air poll- ution
+      get out of hand? '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81977896960
+    m_Localized: AQI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102680981504
+    m_Localized: GDP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1238901157888
+    m_Localized: 'How High Can Your GDP Go Without
+
+      Letting The AQI Cross 100?'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

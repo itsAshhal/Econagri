@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4e75a2c4b743a69ec3ce67d1efe14b, type: 3}
+  m_Name: ResidentialTile
+  m_EditorClassIdentifier: 
+  type: 1
+  nextPiece: {fileID: 11400000, guid: e3fce63e25b8af749ba9a84145b9a64c, type: 2}
+  canMerge: 1
+  appearAsMerged: 0
+  AQIChanges: 1
+  GDPChanges: 1
+  AQIChangesStack: 0
+  GDPChangesStack: 1
+  assets: {fileID: 490932562550585119, guid: ee432d9c1c04a15428b74b9fd6f5f0b9, type: 3}
+  mergeAssets: {fileID: 2393066792133290483, guid: 82ad0710d0e5ec04e8ba55216c32af90,
+    type: 3}
+  stackAssets:
+  - {fileID: 4837154684405157163, guid: a7e54f6ad63c78641bc08871393e39fd, type: 3}
+  - {fileID: 7651641107504875368, guid: 20cdbb4ada46bf84bb4a05970cb8f206, type: 3}
+  - {fileID: 5240319860750951805, guid: 6d8296609625f374abdac9ec241d9897, type: 3}
+  GDPStackMergeBonus: 5
+  AQIChangesInCaseOfMerge: 1
+  GDPChangesInCaseOfMerge: 2
+  AQIChangeForAdjacentTiles: 1
+  AQIChangeForAdjacentMergedTiles: 1
+  material: {fileID: 2100000, guid: 68e0c14b7667cf945823c938095ca505, type: 2}
+  topColor: {r: 0.4862745, g: 0.49411765, b: 0.2, a: 1}
+  bottomColor: {r: 0.627451, g: 0.4117647, b: 0.29803923, a: 1}
+  nextPieceInCaseOfMerge: {fileID: 11400000, guid: dcfd0f772f30b8543a95c7ce623728d3,
+    type: 2}
+  nextPieceInCaseOfStackMerge: {fileID: 11400000, guid: aad211fbf819c7849ad9be9b920548a6,
+    type: 2}

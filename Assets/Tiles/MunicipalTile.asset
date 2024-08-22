@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4e75a2c4b743a69ec3ce67d1efe14b, type: 3}
+  m_Name: MunicipalTile
+  m_EditorClassIdentifier: 
+  type: 5
+  nextPiece: {fileID: 11400000, guid: aad211fbf819c7849ad9be9b920548a6, type: 2}
+  canMerge: 1
+  appearAsMerged: 0
+  AQIChanges: 1
+  GDPChanges: 1
+  AQIChangesStack: 0
+  GDPChangesStack: 0
+  assets: {fileID: 7460830232482839902, guid: 7b97ba3043decce498ea3ee32387f6b9, type: 3}
+  mergeAssets: {fileID: 6251669984957312333, guid: 212ae96878969d54aae3bcad2c6f9c91,
+    type: 3}
+  GDPStackMergeBonus: 0
+  AQIChangesInCaseOfMerge: 1
+  GDPChangesInCaseOfMerge: 1
+  AQIChangeForAdjacentTiles: 1
+  AQIChangeForAdjacentMergedTiles: 1
+  material: {fileID: 2100000, guid: ecf2d386e7778c54c91686ab6893d948, type: 2}
+  topColor: {r: 0.47843137, g: 0.42745098, b: 0.30588236, a: 1}
+  bottomColor: {r: 0.627451, g: 0.4117647, b: 0.29803923, a: 1}
+  nextPieceInCaseOfMerge: {fileID: 11400000, guid: 587487c207849ff498f52b153432bfea,
+    type: 2}
+  nextPieceInCaseOfStackMerge: {fileID: 0}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Hindi (India) (hi-IN)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Hindi (India) (hi-IN)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 439563c70556430468146c04fa2fc00d
+  m_SerializeEntries:
+  - m_GUID: f32878c0daed21f48bad0aabf999d517
+    m_Address: StringExampleTable_hi-IN
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-hi-IN
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ced5051c9c1961e43ba14b8aef2390de
+    m_Address: GuideScreens_hi-IN
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-hi-IN
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edd958ba8b72d6245a370d0fffb1c61e
+    m_Address: TestTable_hi-IN
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-hi-IN
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 190d80313a3da9848aebd3117ca51ea0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 33e79ab982c72884ab446e565c2b8f7e, type: 2}
+    - {fileID: 11400000, guid: 901cf8684485f1e44afb9123e4ba507b, type: 2}

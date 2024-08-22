@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StringExampleTable_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 92faf50e280b99046a9a6c6e955d21db, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 7294770672904175642
+  m_TableData:
+  - m_Id: 164043649024
+    m_Localized: Hi there everyone
+    m_Metadata:
+      m_Items:
+      - rid: 7294770672904175642
+  - m_Id: 17056124858368
+    m_Localized: Read our Guide to learn how to play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18185311186944
+    m_Localized: Play Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22914229563392
+    m_Localized: 'Credits '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22932105687040
+    m_Localized: Leaderboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22985096523776
+    m_Localized: 'Toggle language '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23005577310208
+    m_Localized: 'Guide '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41732041568256
+    m_Localized: "Tip\t\t\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45540968722432
+    m_Localized: Reset Camera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64778508922880
+    m_Localized: "Econagri \u2013 Clean City Tycoon is an initiative of Wingify Earth
+      to spread awareness about air pollution. Find out more about Wingify Earth
+      on our YouTube and Instagram channels. Econagari is built by Bakermax. Find
+      us on Instagram."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74584737148928
+    m_Localized: "Game Founder - Anil Chopra\r\nGame Design - Adhiraj Singh\r\nProducer
+      \u2013 Shubhada Nishthala\r\nDeveloper \u2013 Charu Tak\r\nArt - Shubhangi
+      Raheja\r\nUI Designer - Nandini Singh"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90230409621504
+    m_Localized: "\u25CF Build your city by placing tiles next to one another. Each
+      tiles has a different effect on the prosperity - GDP - and the air pollution
+      - AQI - in your city. \r\n\n\u25CF Placing 3 tiles of the same type next to
+      each other merges them into one block, which unlocks newer types of tiles and
+      boosts your GDP.  \r\n\n\u25CF If certain conditions are met, some kinds of
+      blocks can have more tiles of the same type stacked on top of it for a massive
+      boost to GDP.  \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 124529154420736
+    m_Localized: Share Screenshot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125418078433280
+    m_Localized: Back to menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129062882471936
+    m_Localized: Tool Tips
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 7294770672904175642
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0070c33126000000

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4e75a2c4b743a69ec3ce67d1efe14b, type: 3}
+  m_Name: SolutionTile
+  m_EditorClassIdentifier: 
+  type: 9
+  nextPiece: {fileID: 11400000, guid: edf07a4c851280844adc2d0a34b53a56, type: 2}
+  canMerge: 0
+  appearAsMerged: 0
+  AQIChanges: -4
+  GDPChanges: 0
+  AQIChangesStack: 0
+  GDPChangesStack: 0
+  assets: {fileID: 2819993634033372907, guid: bc3c07265c41ca042a2300b0ef4c6211, type: 3}
+  mergeAssets: {fileID: 0}
+  GDPStackMergeBonus: 0
+  AQIChangesInCaseOfMerge: 0
+  GDPChangesInCaseOfMerge: 0
+  AQIChangeForAdjacentTiles: 0
+  AQIChangeForAdjacentMergedTiles: 0
+  material: {fileID: 2100000, guid: e10c7267a57c554449b3d4ba116a4277, type: 2}
+  topColor: {r: 0.77254903, g: 0.49019608, b: 0.2, a: 1}
+  bottomColor: {r: 0.627451, g: 0.4117647, b: 0.29803923, a: 1}
+  nextPieceInCaseOfMerge: {fileID: 0}
+  nextPieceInCaseOfStackMerge: {fileID: 0}

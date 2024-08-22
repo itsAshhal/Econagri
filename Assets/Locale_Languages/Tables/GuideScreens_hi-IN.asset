@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GuideScreens_hi-IN
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: hi-IN
+  m_SharedData: {fileID: 11400000, guid: 930f658e6cadcfd4aa0b78e1268f5389, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 7294770678614458368
+  m_TableData:
+  - m_Id: 11404537856
+    m_Localized: 
+    m_Metadata:
+      m_Items:
+      - rid: 7294770678614458368
+  - m_Id: 45390983168
+    m_Localized: "\u0915\u094D\u092F\u093E \u0906\u092A \u0935\u093E\u092F\u0941
+      \u092A\u094D\u0930\u0926\u0942\u0937\u0923 \u0915\u094B \u0928\u093F\u092F\u0902\u0924\u094D\u0930\u0923
+      \u0938\u0947 \u092C\u093E\u0939\u0930 \u091C\u093E\u0928\u0947 \u0926\u093F\u090F
+      \u092C\u093F\u0928\u093E \u0938\u092E\u0943\u0926\u094D\u0927 \u0936\u0939\u0930
+      \u092C\u0928\u093E \u0938\u0915\u0924\u0947 \u0939\u0948?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81977896960
+    m_Localized: AQI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102680981504
+    m_Localized: GDP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1238901157888
+    m_Localized: "AQI 100 \u092A\u093E\u0930 \u0915\u093F\u092F\u0947 \u092C\u093F\u0928\u093E
+      \u0906\u092A \u0905\u092A\u0928\u093E \u091C\u0940\u0921\u0940\u092A\u0940
+      \u0915\u093F\u0924\u0928\u093E \u090A\u092A\u0930 \u0932\u0947 \u091C\u093E
+      \u0938\u0915\u0924\u0947 \u0939\u0948?"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 7294770678614458368
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0070c3a702000000

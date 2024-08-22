@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4e75a2c4b743a69ec3ce67d1efe14b, type: 3}
+  m_Name: NatureTile
+  m_EditorClassIdentifier: 
+  type: 0
+  nextPiece: {fileID: 11400000, guid: 3f056cce8f5532b49a057f2102943055, type: 2}
+  canMerge: 1
+  appearAsMerged: 0
+  AQIChanges: -3
+  GDPChanges: 0
+  AQIChangesStack: 0
+  GDPChangesStack: 0
+  assets: {fileID: 4780487331439828154, guid: acbb1d30108beb944a52402aac85faa4, type: 3}
+  mergeAssets: {fileID: 6266424000259770817, guid: 5d312508e4fd1954e95026223b2552dc,
+    type: 3}
+  GDPStackMergeBonus: 0
+  AQIChangesInCaseOfMerge: -5
+  GDPChangesInCaseOfMerge: -2
+  AQIChangeForAdjacentTiles: -1
+  AQIChangeForAdjacentMergedTiles: -2
+  material: {fileID: 2100000, guid: 1092e0483eb34fa42912c5f8b7e4cce1, type: 2}
+  topColor: {r: 0.5058824, g: 0.72156864, b: 0.28627452, a: 1}
+  bottomColor: {r: 0.627451, g: 0.4117647, b: 0.29803923, a: 1}
+  nextPieceInCaseOfMerge: {fileID: 11400000, guid: 3f056cce8f5532b49a057f2102943055,
+    type: 2}
+  nextPieceInCaseOfStackMerge: {fileID: 0}
