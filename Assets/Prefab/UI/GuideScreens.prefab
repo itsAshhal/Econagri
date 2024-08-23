@@ -88,8 +88,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b708f22c11eb4478f0781453651134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnglishSprite: {fileID: 21300000, guid: 7576fbdee3aac86428d30421f1b31246, type: 3}
-  HindiSprite: {fileID: 21300000, guid: e1579ddf77de9624db27fa0f8a4e3d49, type: 3}
+  EnglishSprite: {fileID: 21300000, guid: 9a74000704ceac24499f3cc0af0ca88d, type: 3}
+  HindiSprite: {fileID: 21300000, guid: 070e149b472fce14882002c970f9f6ac, type: 3}
   M_ImageSettings: 0
   HindiIncrementSettings: {x: 0, y: 0}
   EnglishIncrementSettings: {x: 0, y: 0}
@@ -182,8 +182,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b708f22c11eb4478f0781453651134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnglishSprite: {fileID: 21300000, guid: d02990c2f2a44804c8725566a36c4b8f, type: 3}
-  HindiSprite: {fileID: 21300000, guid: 29a215bd61207b244a3f762d529dbf26, type: 3}
+  EnglishSprite: {fileID: 21300000, guid: 0812a1d5e5323c448952df9d9dbcdb12, type: 3}
+  HindiSprite: {fileID: 21300000, guid: 14a3ca0f5887c6a47ae348483f792a55, type: 3}
   M_ImageSettings: 0
   HindiIncrementSettings: {x: 0, y: 0}
   EnglishIncrementSettings: {x: 0, y: 0}
@@ -276,8 +276,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b708f22c11eb4478f0781453651134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnglishSprite: {fileID: 21300000, guid: 278a72425c90450499e8040a0c725afb, type: 3}
-  HindiSprite: {fileID: 21300000, guid: 729b1172b7472bc4792ba4402fbc8a19, type: 3}
+  EnglishSprite: {fileID: 21300000, guid: 09eb9ea3f7af3934aa63d7555c7e65d4, type: 3}
+  HindiSprite: {fileID: 21300000, guid: 7c2065cd1579ea748aea3e1e3d079ee1, type: 3}
   M_ImageSettings: 0
   HindiIncrementSettings: {x: 0, y: 0}
   EnglishIncrementSettings: {x: 0, y: 0}
@@ -370,8 +370,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b708f22c11eb4478f0781453651134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnglishSprite: {fileID: 21300000, guid: f56f997ab5f877a4c971b95af6629f5f, type: 3}
-  HindiSprite: {fileID: 21300000, guid: 6ecfd4373c59f294dadc1025a5c04106, type: 3}
+  EnglishSprite: {fileID: 21300000, guid: 3bdf6e9f9134ea848aad814413c6958e, type: 3}
+  HindiSprite: {fileID: 21300000, guid: 6c0cb53f8e51d224d9e8cdbb2b287d45, type: 3}
   M_ImageSettings: 0
   HindiIncrementSettings: {x: 0, y: 0}
   EnglishIncrementSettings: {x: 0, y: 0}
@@ -464,8 +464,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b708f22c11eb4478f0781453651134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnglishSprite: {fileID: 21300000, guid: dcdd5549cd3627c429e167048bd5f045, type: 3}
-  HindiSprite: {fileID: 21300000, guid: d8fe80dbdaa387c4e8c09b8a4f0139c4, type: 3}
+  EnglishSprite: {fileID: 21300000, guid: 9c8a557ab2b23884da042eca3cebafae, type: 3}
+  HindiSprite: {fileID: 21300000, guid: df7d5aaf63bab374f87d2bdb593553b1, type: 3}
   M_ImageSettings: 0
   HindiIncrementSettings: {x: 0, y: 0}
   EnglishIncrementSettings: {x: 0, y: 0}
@@ -691,8 +691,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b708f22c11eb4478f0781453651134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnglishSprite: {fileID: 21300000, guid: 1d37e839b8d27854d859dc26168452ab, type: 3}
-  HindiSprite: {fileID: 21300000, guid: f4469b13503231049808e2606d39d0e5, type: 3}
+  EnglishSprite: {fileID: 21300000, guid: a60e56f0ac940b7479e8059111137677, type: 3}
+  HindiSprite: {fileID: 21300000, guid: 1b2de9896c9f2ab4180bbae58a1f5944, type: 3}
   M_ImageSettings: 0
   HindiIncrementSettings: {x: 0, y: 0}
   EnglishIncrementSettings: {x: 0, y: 0}
@@ -785,8 +785,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b708f22c11eb4478f0781453651134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnglishSprite: {fileID: 21300000, guid: d626c5aaa85eebe4ab2019c479383aec, type: 3}
-  HindiSprite: {fileID: 21300000, guid: 20f709e24b8de4744889f8299dc3f6a9, type: 3}
+  EnglishSprite: {fileID: 21300000, guid: d3b24e09b8f81934096cdbb7ad709c0a, type: 3}
+  HindiSprite: {fileID: 21300000, guid: 85ed1e7ba14537244ab2569420440d69, type: 3}
   M_ImageSettings: 0
   HindiIncrementSettings: {x: 0, y: 0}
   EnglishIncrementSettings: {x: 0, y: 0}
@@ -807,7 +807,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &542858709165242910
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1076,7 +1076,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cda38804f5fc6b5469410f8f03068b90, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c4646f57fdd1bd44dac08d797caa6303, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1098,8 +1098,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b708f22c11eb4478f0781453651134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnglishSprite: {fileID: 21300000, guid: cda38804f5fc6b5469410f8f03068b90, type: 3}
-  HindiSprite: {fileID: 21300000, guid: 3b25a44e9f1c986458f762e504ceaf8a, type: 3}
+  EnglishSprite: {fileID: 21300000, guid: c4646f57fdd1bd44dac08d797caa6303, type: 3}
+  HindiSprite: {fileID: 21300000, guid: 23b8d84a2f810c9438f6040e3a07afbd, type: 3}
   M_ImageSettings: 0
   HindiIncrementSettings: {x: 0, y: 0}
   EnglishIncrementSettings: {x: 0, y: 0}
