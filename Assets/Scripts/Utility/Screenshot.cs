@@ -20,7 +20,7 @@ public class ScreenshotHandler : MonoBehaviour
 
     private bool[] _didHide;
     private bool[] _didShow;
-    
+
     private string currentUrl;
     private string currentQuote;
 
@@ -30,12 +30,12 @@ public class ScreenshotHandler : MonoBehaviour
         shareIntent.SetActive(false);
         Events.OnGameOver.AddListener(OnGameOver);
     }
-    
+
     private void OnGameOver(bool didWin, int aqi, int gdp, bool movesLeft)
     {
         shareIntent.transform.SetParent(winUIParent.transform);
         screenshotCopied.transform.SetParent(winUIParent.transform);
-        
+
         shareIntent.transform.localPosition = Vector3.zero;
         screenshotCopied.transform.localPosition = Vector3.zero - Vector3.up * 200f;
     }
@@ -51,7 +51,7 @@ public class ScreenshotHandler : MonoBehaviour
     private void SetImageAlpha(GameObject gameObjectImage, float alpha)
     {
         // for each child of the parent object
-        
+
         var image = gameObjectImage.GetComponent<Image>();
         if (image)
         {
@@ -66,7 +66,7 @@ public class ScreenshotHandler : MonoBehaviour
             color1.a = alpha;
             imageChild.color = color1;
         }
-        
+
         foreach (var textChild in gameObjectImage.transform.GetComponentsInChildren<TextMeshProUGUI>())
         {
             var color1 = textChild.color;
@@ -75,15 +75,19 @@ public class ScreenshotHandler : MonoBehaviour
         }
     }
 
+    public bool IsSharing = false;
+
     private void CaptureScreenshot()
     {
+        if (IsSharing) return;
+        IsSharing = true;
         resHeight = Screen.height;
         resWidth = Screen.width;
-        
+
         _didShow = new bool[ShowOnScreenshot.Length];
         _didHide = new bool[HideOnScreenshot.Length];
-        
-        for(var i = 0; i < ShowOnScreenshot.Length; i++)
+
+        for (var i = 0; i < ShowOnScreenshot.Length; i++)
         {
             if (ShowOnScreenshot[i].activeSelf)
             {
@@ -96,7 +100,7 @@ public class ScreenshotHandler : MonoBehaviour
                 SetImageAlpha(ShowOnScreenshot[i], 1f);
             }
         }
-        
+
         for (var i = 0; i < HideOnScreenshot.Length; i++)
         {
             if (HideOnScreenshot[i].activeSelf)
@@ -119,8 +123,8 @@ public class ScreenshotHandler : MonoBehaviour
         myCamera.targetTexture = null;
         RenderTexture.active = null; // JC: added to avoid errors
         Destroy(rt);
-        
-        for(var i = 0; i < ShowOnScreenshot.Length; i++)
+
+        for (var i = 0; i < ShowOnScreenshot.Length; i++)
         {
             if (_didShow[i])
             {
@@ -150,11 +154,14 @@ public class ScreenshotHandler : MonoBehaviour
                 {
                     ShareTextOnAndroid("I’m building a Clean City with Econagri! #Econagri @Wingifyearth \n" +
                                        finalImageUrl);
+
+                    IsSharing = false;
                 }
                 else
                 {
                     currentUrl = finalImageUrl;
                     currentQuote = "I’m building a Clean City with Econagri! #Econagri @Wingifyearth";
+                    IsSharing = false;
                 }
             });
     }
@@ -166,8 +173,11 @@ public class ScreenshotHandler : MonoBehaviour
             System.DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss"));
     }
 
+    public bool IsSharingText = false;
     private void ShareTextOnAndroid(string text)
     {
+        if (IsSharingText) return;
+        IsSharingText = true;
         using (var intentClass = new AndroidJavaClass("android.content.Intent"))
         using (var intentObject = new AndroidJavaObject("android.content.Intent"))
         {
@@ -185,6 +195,7 @@ public class ScreenshotHandler : MonoBehaviour
                 currentActivity.Call("startActivity", jChooser);
             }
         }
+        IsSharingText = false;
     }
 
     public void TakeScreenshot()
@@ -218,13 +229,13 @@ public class ScreenshotHandler : MonoBehaviour
         Application.OpenURL("https://www.facebook.com/sharer/sharer.php?u=" + Uri.EscapeDataString(currentUrl) + "&quote=" + Uri.EscapeDataString(currentQuote));
         shareIntent.SetActive(false);
     }
-    
+
     public void ShareToTwitter()
     {
         Application.OpenURL("https://twitter.com/intent/tweet?text=" + Uri.EscapeDataString(currentUrl) + "&url=" + Uri.EscapeDataString(currentQuote));
         shareIntent.SetActive(false);
     }
-    
+
     public void ShareToWhatsApp()
     {
         Application.OpenURL("https://api.whatsapp.com/send?text=" + Uri.EscapeDataString(currentUrl) + "%20" + Uri.EscapeDataString(currentQuote));

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: NewUsedFont
   m_EditorClassIdentifier: 
   EnglishFont: {fileID: 11400000, guid: 1e3c311fc27694a419baca451fc975d1, type: 2}
-  HindiFont: {fileID: 11400000, guid: 0f3cc36091d35d5439f4d968888b51ae, type: 2}
+  HindiFont: {fileID: 11400000, guid: 2bb15ffa7583e164ab93135cb700c659, type: 2}

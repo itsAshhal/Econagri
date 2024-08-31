@@ -11,7 +11,7 @@ public class ImageAlphaController : MonoBehaviour
     {
         Invoke(nameof(SetImageAlphaToOne), .1f);
         Debug.Log("HAHA1");
-        LocaleSelector.Instance.ChangeLocale_2(0);
+        //LocaleSelector.Instance.ChangeLocale_2(0);
     }
 
     void Awake()

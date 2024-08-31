@@ -17,6 +17,7 @@ namespace Econagri.Localization
         public bool ShouldRunOnStart = false;
 
         public static LocaleSelector Instance;
+        public SceneChangeDetector scd;
 
         private void Awake()
         {
@@ -26,32 +27,25 @@ namespace Econagri.Localization
 
         private void Start()
         {
-            if (ShouldRunOnStart == false) return;
-            DefaultLocale();
-            Debug.Log($"GameLanguage is {GameData.language}");
+
 
         }
 
-        void DefaultLocale()
+
+        public void ChangeLocale(int localeId)
         {
-            StartCoroutine(LocaleIdCoroutine(0));
+            StartCoroutine(LocaleIdCoroutine(localeId));
         }
-
         public void ChangeLocale()
         {
-            if (isActive) return;
-            Debug.Log($"ChangeLocale called");
-            Debug.Log($"Method called from {this.name}");
-            Debug.Log($"GameLanguage is {GameData.language}");
-            StartCoroutine(LocaleIdCoroutine(GameData.language == Language.English ? 0 : 1));
+            if (LocalizationSettings.SelectedLocale.Identifier.Code == "en") StartCoroutine(LocaleIdCoroutine(1));
+            else StartCoroutine(LocaleIdCoroutine(0));
         }
-        public void ChangeLocale_2(int id)
-        {
-            StartCoroutine(LocaleIdCoroutine(id));
-        }
+
 
         IEnumerator LocaleIdCoroutine(int localId)
         {
+            Debug.Log($"OnSceneStart locale is called, currently the localed id passed is {localId}");
             Debug.Log($"GameLanguage is {GameData.language} and localeId passed is {localId}");
             isActive = true;
             yield return LocalizationSettings.InitializationOperation;
@@ -59,20 +53,10 @@ namespace Econagri.Localization
             Debug.Log($"Selected locale is {LocalizationSettings.SelectedLocale}");
             var currentLocale = LocalizationSettings.SelectedLocale;
             Debug.Log($"Locale Code is {currentLocale.Identifier.Code}");
-            //yield return new WaitForSeconds(.75f);
-
-            // make a callback
-            OnChangeLanguage?.Invoke(localId);
-            // hi-IN
-            // en
-
-
-            // change the language as well
-            GameData.language = GameData.language == Language.English ? Language.Hindi : Language.English;
-
-            OnChangeLanguageSimple?.Invoke();
-
             isActive = false;
+
+            OnChangeLanguage?.Invoke(localId);
+            OnChangeLanguageSimple?.Invoke();
         }
     }
 }

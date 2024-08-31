@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8588239452428966990}
   - component: {fileID: 1219502454352765375}
   - component: {fileID: 7619815705730061078}
+  - component: {fileID: 3136784698599784171}
   m_Layer: 5
   m_Name: Screen_1 (7)
   m_TagString: Untagged
@@ -36,7 +37,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -436.9749, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8588239452428966990
 CanvasRenderer:
@@ -88,12 +89,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b708f22c11eb4478f0781453651134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnglishSprite: {fileID: 21300000, guid: 9a74000704ceac24499f3cc0af0ca88d, type: 3}
-  HindiSprite: {fileID: 21300000, guid: 070e149b472fce14882002c970f9f6ac, type: 3}
+  EnglishSprite: {fileID: 21300000, guid: f31fc2b1a965d1342ad4918081e3a02a, type: 3}
+  HindiSprite: {fileID: 21300000, guid: 98361797e269ae34093ce2721046ddfc, type: 3}
   M_ImageSettings: 0
   HindiIncrementSettings: {x: 0, y: 0}
   EnglishIncrementSettings: {x: 0, y: 0}
   SetImageSizeManually: 0
+--- !u!114 &3136784698599784171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850363143115485742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4d0e78875062c429662ad86d300355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlphaValue: 1
 --- !u!1 &3104660474071238100
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,6 +120,7 @@ GameObject:
   - component: {fileID: 4957358199740556972}
   - component: {fileID: 7911026531668522877}
   - component: {fileID: 8122975109886558446}
+  - component: {fileID: 3912927637694638181}
   m_Layer: 5
   m_Name: Screen_1 (6)
   m_TagString: Untagged
@@ -130,7 +145,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -436.9749, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4957358199740556972
 CanvasRenderer:
@@ -182,12 +197,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b708f22c11eb4478f0781453651134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnglishSprite: {fileID: 21300000, guid: 0812a1d5e5323c448952df9d9dbcdb12, type: 3}
-  HindiSprite: {fileID: 21300000, guid: 14a3ca0f5887c6a47ae348483f792a55, type: 3}
+  EnglishSprite: {fileID: 21300000, guid: d7a6f8df019d8b344aeee8a7d8c84c35, type: 3}
+  HindiSprite: {fileID: 21300000, guid: a040f99f642857146917aa31483b2470, type: 3}
   M_ImageSettings: 0
   HindiIncrementSettings: {x: 0, y: 0}
   EnglishIncrementSettings: {x: 0, y: 0}
   SetImageSizeManually: 0
+--- !u!114 &3912927637694638181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3104660474071238100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4d0e78875062c429662ad86d300355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlphaValue: 1
 --- !u!1 &3450646949447975879
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,6 +228,7 @@ GameObject:
   - component: {fileID: 319713516302699790}
   - component: {fileID: 1374881105339485149}
   - component: {fileID: 5652192107455356795}
+  - component: {fileID: 3739857275947381054}
   m_Layer: 5
   m_Name: Screen_1 (3)
   m_TagString: Untagged
@@ -224,7 +253,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -436.9749, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &319713516302699790
 CanvasRenderer:
@@ -276,12 +305,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b708f22c11eb4478f0781453651134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnglishSprite: {fileID: 21300000, guid: 09eb9ea3f7af3934aa63d7555c7e65d4, type: 3}
+  EnglishSprite: {fileID: 21300000, guid: 08211d1f0c4d1524390c890df7aafb6d, type: 3}
   HindiSprite: {fileID: 21300000, guid: 7c2065cd1579ea748aea3e1e3d079ee1, type: 3}
   M_ImageSettings: 0
   HindiIncrementSettings: {x: 0, y: 0}
   EnglishIncrementSettings: {x: 0, y: 0}
   SetImageSizeManually: 0
+--- !u!114 &3739857275947381054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3450646949447975879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4d0e78875062c429662ad86d300355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlphaValue: 1
 --- !u!1 &3463786485214662466
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,6 +336,7 @@ GameObject:
   - component: {fileID: 9095672948453796865}
   - component: {fileID: 4939610780571891318}
   - component: {fileID: 6640938850083168978}
+  - component: {fileID: 3481909655478097167}
   m_Layer: 5
   m_Name: Screen_1 (1)
   m_TagString: Untagged
@@ -318,7 +361,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -436.9749, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9095672948453796865
 CanvasRenderer:
@@ -370,12 +413,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b708f22c11eb4478f0781453651134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnglishSprite: {fileID: 21300000, guid: 3bdf6e9f9134ea848aad814413c6958e, type: 3}
+  EnglishSprite: {fileID: 21300000, guid: 5b2fdd1fbc9324d4cb92d9db4b36bb4c, type: 3}
   HindiSprite: {fileID: 21300000, guid: 6c0cb53f8e51d224d9e8cdbb2b287d45, type: 3}
   M_ImageSettings: 0
   HindiIncrementSettings: {x: 0, y: 0}
   EnglishIncrementSettings: {x: 0, y: 0}
   SetImageSizeManually: 0
+--- !u!114 &3481909655478097167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463786485214662466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4d0e78875062c429662ad86d300355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlphaValue: 1
 --- !u!1 &3569603668611021233
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,6 +444,7 @@ GameObject:
   - component: {fileID: 7147091674415632359}
   - component: {fileID: 453683628325673303}
   - component: {fileID: 3306524553079999971}
+  - component: {fileID: 1425812414447524496}
   m_Layer: 5
   m_Name: Screen_1 (5)
   m_TagString: Untagged
@@ -412,7 +469,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -436.9749, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7147091674415632359
 CanvasRenderer:
@@ -464,12 +521,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b708f22c11eb4478f0781453651134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnglishSprite: {fileID: 21300000, guid: 9c8a557ab2b23884da042eca3cebafae, type: 3}
-  HindiSprite: {fileID: 21300000, guid: df7d5aaf63bab374f87d2bdb593553b1, type: 3}
+  EnglishSprite: {fileID: 21300000, guid: 89018bb6cba72764c89168dc54bf6606, type: 3}
+  HindiSprite: {fileID: 21300000, guid: 68719880e24069d4b8ab5a2f6b6b54db, type: 3}
   M_ImageSettings: 0
   HindiIncrementSettings: {x: 0, y: 0}
   EnglishIncrementSettings: {x: 0, y: 0}
   SetImageSizeManually: 0
+--- !u!114 &1425812414447524496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3569603668611021233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4d0e78875062c429662ad86d300355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlphaValue: 1
 --- !u!1 &4412275905535342478
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,6 +552,7 @@ GameObject:
   - component: {fileID: 8479315394084328400}
   - component: {fileID: 1175309338746825101}
   - component: {fileID: 4911959015137605813}
+  - component: {fileID: 9096984967602930854}
   m_Layer: 5
   m_Name: SmallButton
   m_TagString: Untagged
@@ -603,6 +674,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &9096984967602930854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4412275905535342478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4d0e78875062c429662ad86d300355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlphaValue: 1
 --- !u!1 &4810813500631200139
 GameObject:
   m_ObjectHideFlags: 0
@@ -615,6 +699,7 @@ GameObject:
   - component: {fileID: 1975396177453823060}
   - component: {fileID: 6678192431540035940}
   - component: {fileID: 875665455452952275}
+  - component: {fileID: 8349668048692972912}
   m_Layer: 5
   m_Name: Screen_1 (2)
   m_TagString: Untagged
@@ -639,7 +724,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -436.9749, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1975396177453823060
 CanvasRenderer:
@@ -691,12 +776,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b708f22c11eb4478f0781453651134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnglishSprite: {fileID: 21300000, guid: a60e56f0ac940b7479e8059111137677, type: 3}
+  EnglishSprite: {fileID: 21300000, guid: d4382edd38288af46a22265a76bee768, type: 3}
   HindiSprite: {fileID: 21300000, guid: 1b2de9896c9f2ab4180bbae58a1f5944, type: 3}
   M_ImageSettings: 0
   HindiIncrementSettings: {x: 0, y: 0}
   EnglishIncrementSettings: {x: 0, y: 0}
   SetImageSizeManually: 0
+--- !u!114 &8349668048692972912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4810813500631200139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4d0e78875062c429662ad86d300355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlphaValue: 1
 --- !u!1 &6377046102587035541
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,6 +807,7 @@ GameObject:
   - component: {fileID: 824687020532471653}
   - component: {fileID: 2340128887606509042}
   - component: {fileID: 2746109379499038199}
+  - component: {fileID: 3964792467165471651}
   m_Layer: 5
   m_Name: Screen_1 (4)
   m_TagString: Untagged
@@ -733,7 +832,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -436.9749, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &824687020532471653
 CanvasRenderer:
@@ -785,12 +884,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b708f22c11eb4478f0781453651134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnglishSprite: {fileID: 21300000, guid: d3b24e09b8f81934096cdbb7ad709c0a, type: 3}
+  EnglishSprite: {fileID: 21300000, guid: 9438fa3df6572394592f4a1f9f17f0b1, type: 3}
   HindiSprite: {fileID: 21300000, guid: 85ed1e7ba14537244ab2569420440d69, type: 3}
   M_ImageSettings: 0
   HindiIncrementSettings: {x: 0, y: 0}
   EnglishIncrementSettings: {x: 0, y: 0}
   SetImageSizeManually: 0
+--- !u!114 &3964792467165471651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6377046102587035541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4d0e78875062c429662ad86d300355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlphaValue: 1
 --- !u!1 &8150382168731560005
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,7 +919,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &542858709165242910
 RectTransform:
   m_ObjectHideFlags: 0
@@ -946,6 +1058,7 @@ GameObject:
   - component: {fileID: 2819179316319388542}
   - component: {fileID: 8950547445882973588}
   - component: {fileID: 4287998156249899239}
+  - component: {fileID: 8774987725135837072}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -1010,6 +1123,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8774987725135837072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8744231358564171944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4d0e78875062c429662ad86d300355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlphaValue: 1
 --- !u!1 &9037229593325874331
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,6 +1148,7 @@ GameObject:
   - component: {fileID: 5300363844294734731}
   - component: {fileID: 5322757178262961882}
   - component: {fileID: 7517291227497918625}
+  - component: {fileID: 6040259992726143312}
   m_Layer: 5
   m_Name: Screen_1
   m_TagString: Untagged
@@ -1046,7 +1173,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -436.9749, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5300363844294734731
 CanvasRenderer:
@@ -1076,7 +1203,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c4646f57fdd1bd44dac08d797caa6303, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 221a6689eaf3fbe4785759c51602d64b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1098,12 +1225,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b708f22c11eb4478f0781453651134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnglishSprite: {fileID: 21300000, guid: c4646f57fdd1bd44dac08d797caa6303, type: 3}
-  HindiSprite: {fileID: 21300000, guid: 23b8d84a2f810c9438f6040e3a07afbd, type: 3}
+  EnglishSprite: {fileID: 21300000, guid: 221a6689eaf3fbe4785759c51602d64b, type: 3}
+  HindiSprite: {fileID: 21300000, guid: eb45029ea3d335b4bb05cd71d1c202cd, type: 3}
   M_ImageSettings: 0
   HindiIncrementSettings: {x: 0, y: 0}
   EnglishIncrementSettings: {x: 0, y: 0}
   SetImageSizeManually: 0
+--- !u!114 &6040259992726143312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9037229593325874331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4d0e78875062c429662ad86d300355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlphaValue: 1
 --- !u!1001 &7872560994309951464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1337,7 +1477,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5151099976190102308, guid: 28ac6dc3e205941468f2bdb55a30564b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6961571494459015010}
   m_SourcePrefab: {fileID: 100100000, guid: 28ac6dc3e205941468f2bdb55a30564b, type: 3}
 --- !u!224 &2388114611174584505 stripped
 RectTransform:
@@ -1345,6 +1489,25 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 7872560994309951464}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3043473068461999308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5151099976190102308, guid: 28ac6dc3e205941468f2bdb55a30564b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7872560994309951464}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6961571494459015010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3043473068461999308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4d0e78875062c429662ad86d300355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlphaValue: 1
 --- !u!1001 &8564895280133341284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1558,8 +1721,31 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5151099976190102308, guid: 28ac6dc3e205941468f2bdb55a30564b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1450658096861308175}
   m_SourcePrefab: {fileID: 100100000, guid: 28ac6dc3e205941468f2bdb55a30564b, type: 3}
+--- !u!1 &3576136014782073664 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5151099976190102308, guid: 28ac6dc3e205941468f2bdb55a30564b,
+    type: 3}
+  m_PrefabInstance: {fileID: 8564895280133341284}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1450658096861308175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3576136014782073664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4d0e78875062c429662ad86d300355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlphaValue: 1
 --- !u!224 &4231171386922467125 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5504732544786759505, guid: 28ac6dc3e205941468f2bdb55a30564b,

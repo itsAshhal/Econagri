@@ -30,7 +30,8 @@ namespace Utility
         bool canShowAlert = true;
         [SerializeField] float AlertDuration = 1.5f;
         [SerializeField] TMP_Text m_alarmingText;
-
+        public bool fiftyPartDone = false;
+        public bool eightyPartDone = false;
 
 
         public enum SkyState
@@ -105,7 +106,25 @@ namespace Utility
             Debug.Log($"Motivation displayed");
             ConfettiParticle.gameObject.SetActive(true);
             MotivationTextImageAnim.CrossFade("Appear", .1f);
+            float value = Random.Range(1.5f, 2f);
+            Invoke(nameof(UnDisplayMotivation), value);
+            Invoke(nameof(UnDisplayMotivationConfirm), value);
+            Invoke(nameof(HideConfetti), 4f);
+        }
 
+        void HideConfetti()
+        {
+            ConfettiParticle.gameObject.SetActive(false);
+        }
+
+        void UnDisplayMotivation()
+        {
+            MotivationTextImageAnim.CrossFade("Disappear", .1f);
+        }
+
+        void UnDisplayMotivationConfirm()
+        {
+            MotivationConfirmAnim.CrossFade("Disappear", .1f);
         }
         void DisplayMotivationConfirm()
         {
@@ -135,8 +154,8 @@ namespace Utility
 
                 if (M_SkyState != SkyState.Blue)
                 {
-                    //DisplayMotivation();
-                    // DisplayMotivationConfirm();
+                    DisplayMotivation();
+                    DisplayMotivationConfirm();
                     M_SkyState = SkyState.Blue;
                 }
 
@@ -150,25 +169,38 @@ namespace Utility
                 // }
             }
 
-            else if ((aqi >= 50 && aqi < 52) || (aqi > 80 && aqi < 82))
-                if (M_SkyState != SkyState.Red)
-                {
-                    if (aqi >= 50 && aqi < 52)
-                    {
-                        DisplayAlert();
-                        m_alarmingText.text = "AQI is increasing!";
-                        Invoke(nameof(UnCheckRed), 1f);
-                        M_SkyState = SkyState.Red;
-                    }
-                    else
-                    {
-                        DisplayAlert();
-                        m_alarmingText.text = "AQI is critical!";
-                        Invoke(nameof(UnCheckRed), 1f);
-                        M_SkyState = SkyState.Red;
-                    }
+            if ((aqi >= 50 && aqi < 52) || (aqi > 80 && aqi < 82))
+            {
+                Debug.Log($"Reached the red area");
 
+                if (aqi >= 50 && aqi < 52)
+                {
+                    Debug.Log($"AQI 50 started");
+                    if (fiftyPartDone == true) return;
+                    DisplayAlert();
+                    m_alarmingText.text = "AQI is increasing!";
+                    //Invoke(nameof(UnCheckRed), 1f);
+                    //M_SkyState = SkyState.Red;
+                    fiftyPartDone = true;
+
+                    Debug.Log($"Simple increasing");
                 }
+                else if (aqi > 80 && aqi < 82)
+                {
+                    Debug.Log($"AQI 80 started");
+                    if (eightyPartDone == true) return;
+                    DisplayAlert();
+                    m_alarmingText.text = "AQI is critical!";
+                    //Invoke(nameof(UnCheckRed), 1f);
+                    //M_SkyState = SkyState.Red;
+                    eightyPartDone = true;
+
+                    Debug.Log($"Critical increasing");
+                }
+            }
+
+
+
 
         }
 
@@ -221,7 +253,7 @@ namespace Utility
         void GDPCheck()
         {
             var gdpText = PieceAnimationController.Instance.GDPText;
-            gdpText.text = float.Parse(gdpText.text) < 0 ? gdpText.text = "0" : gdpText.text = gdpText.text;
+            //gdpText.text = float.Parse(gdpText.text) < 0 ? gdpText.text = "0" : gdpText.text = gdpText.text;
         }
 
         private void Update()

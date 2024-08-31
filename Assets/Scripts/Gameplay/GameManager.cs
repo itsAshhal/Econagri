@@ -157,6 +157,14 @@ namespace Gameplay
             {
                 // isDebug = !isDebug;
             }
+
+
+            // if (_aqi <= 0.0f)
+            // {
+            //     _aqi = 0.0f;
+            //     aqiText.text = "0";
+            // }
+
         }
 
         private void OnPiecePlaced(Piece piece, int mergeIndex, Vector2Int hexCoord, bool didStack)
@@ -217,7 +225,7 @@ namespace Gameplay
             _undoAQI = aqiChange;
             _undoGDP = gdpChange;
 
-            
+
         }
 
         public (float, float) GetNetScoreChange(Piece piece, int mergeIndex, Vector2Int hexCoord, bool didStack)

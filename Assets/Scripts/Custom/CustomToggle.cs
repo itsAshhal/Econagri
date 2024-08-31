@@ -37,6 +37,17 @@ public class CustomToggle : MonoBehaviour
         //SetupManually();
     }
 
+
+    private void Update()
+    {
+        if (SetImageSizeManually)
+        {
+            var currentLocale = LocalizationSettings.SelectedLocale;
+            if (currentLocale.Identifier.Code == "en") m_image.GetComponent<RectTransform>().localScale = EnglishIncrementSettings;
+            else m_image.GetComponent<RectTransform>().localScale = HindiIncrementSettings;
+        }
+    }
+
     /// <summary>
     ///  In case OnEnable is not called, we can also set this up manually
     /// </summary>
@@ -49,10 +60,12 @@ public class CustomToggle : MonoBehaviour
         if (currentLocale.Identifier.Code == "en")
         {
             m_image.sprite = EnglishSprite;
+            // m_image.GetComponent<RectTransform>().localScale = EnglishIncrementSettings;
         }
         else
         {
             m_image.sprite = HindiSprite;
+            // m_image.GetComponent<RectTransform>().localScale = HindiIncrementSettings;
         }
 
         if (!SetImageSizeManually) return;

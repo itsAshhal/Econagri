@@ -49,7 +49,7 @@ namespace UI
 
         private void Start()
         {
-            LocaleSelector.Instance.ChangeLocale();
+            //LocaleSelector.Instance.ChangeLocale();
             Debug.Log($"MainMenuHasStarted");
         }
         private void OnEnable()
@@ -104,7 +104,7 @@ namespace UI
             if (code == "en") index = 0;
             else index = 1;
 
-            LocaleSelector.Instance.ChangeLocale_2(index);
+            //LocaleSelector.Instance.ChangeLocale_2(index);
         }
 
         public void OnLanguageButtonClick(bool isEnglish)
@@ -115,12 +115,10 @@ namespace UI
             ShowMainMenuScreen();
 
             // change the screen from the localeSelector as well
-            Invoke(nameof(ChangeLocaleSafely), 1f);
+            if (isEnglish) LocaleSelector.Instance.ChangeLocale(0);
+            else LocaleSelector.Instance.ChangeLocale(1);
         }
-        void ChangeLocaleSafely()
-        {
-            LocaleSelector.Instance.ChangeLocale_2(GameData.language == Language.English == true ? 0 : 1);
-        }
+
 
         public void ShowLanguageScreen()
         {

@@ -1762,8 +1762,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015258789, y: 191}
-  m_SizeDelta: {x: 574.4, y: 50}
+  m_AnchoredPosition: {x: 0.000015258789, y: 171.29272}
+  m_SizeDelta: {x: 574.4, y: 79.6146}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &204663491
 MonoBehaviour:
@@ -2755,6 +2755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Font: {fileID: 11400000, guid: 2b22255cd3f746847b8b4c3c8f195f5d, type: 2}
+  ShouldBeAutomated: 0
 --- !u!1 &328830861
 GameObject:
   m_ObjectHideFlags: 0
@@ -3752,7 +3753,7 @@ MonoBehaviour:
   image: {fileID: 453087699}
   text: {fileID: 0}
   englishSprite: {fileID: 21300000, guid: 68f54ea8dbb086746af72da62f57dcec, type: 3}
-  hindiSprite: {fileID: 21300000, guid: 694f5f6142438504697efa98ecc6dc86, type: 3}
+  hindiSprite: {fileID: 21300000, guid: f8e4d5f816c78d145b98e5a45c1a6fa4, type: 3}
   englishText: 
   hindiText: 
   englishObject: {fileID: 0}
@@ -3773,7 +3774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnglishSprite: {fileID: 21300000, guid: 68f54ea8dbb086746af72da62f57dcec, type: 3}
-  HindiSprite: {fileID: 21300000, guid: 694f5f6142438504697efa98ecc6dc86, type: 3}
+  HindiSprite: {fileID: 21300000, guid: f8e4d5f816c78d145b98e5a45c1a6fa4, type: 3}
   M_ImageSettings: 0
   HindiIncrementSettings: {x: 0, y: 0}
   EnglishIncrementSettings: {x: 0, y: 0}
@@ -6537,8 +6538,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  scaleAmount: {x: 1.2, y: 1.2}
-  animationDuration: 0.2
+  scaleAmount: {x: 0.7, y: 0.7}
+  animationDuration: 0.15
 --- !u!114 &597861612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6552,6 +6553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Font: {fileID: 11400000, guid: 2b22255cd3f746847b8b4c3c8f195f5d, type: 2}
+  ShouldBeAutomated: 0
 --- !u!1 &605777761
 GameObject:
   m_ObjectHideFlags: 0
@@ -7367,6 +7369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Font: {fileID: 11400000, guid: 2b22255cd3f746847b8b4c3c8f195f5d, type: 2}
+  ShouldBeAutomated: 0
 --- !u!114 &689198379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8682,6 +8685,24 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2308234012600029948, guid: 28ac6dc3e205941468f2bdb55a30564b,
         type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 298d9e13bd652964ca37fb02f60283bb,
+        type: 3}
+    - target: {fileID: 2308234012600029948, guid: 28ac6dc3e205941468f2bdb55a30564b,
+        type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 298d9e13bd652964ca37fb02f60283bb,
+        type: 3}
+    - target: {fileID: 2308234012600029948, guid: 28ac6dc3e205941468f2bdb55a30564b,
+        type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 298d9e13bd652964ca37fb02f60283bb,
+        type: 3}
+    - target: {fileID: 2308234012600029948, guid: 28ac6dc3e205941468f2bdb55a30564b,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -9983,7 +10004,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &918818640
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10000,7 +10021,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015258789, y: 209.1}
+  m_AnchoredPosition: {x: 0.000015258789, y: 223.2}
   m_SizeDelta: {x: 659.63, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &918818641
@@ -10415,7 +10436,9 @@ MonoBehaviour:
   AlertTextAnim: {fileID: 1925861924}
   AlertConfirmAnim: {fileID: 0}
   AlertDuration: 1.5
-  m_alarmingText: {fileID: 0}
+  m_alarmingText: {fileID: 547624766}
+  fiftyPartDone: 0
+  eightyPartDone: 0
   M_SkyState: 0
 --- !u!114 &966851777
 MonoBehaviour:
@@ -11157,7 +11180,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 0
-  m_Spacing: 0
+  m_Spacing: 14.21
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
@@ -11616,7 +11639,7 @@ RectTransform:
   m_GameObject: {fileID: 1063086462}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1.6461}
-  m_LocalScale: {x: 1.4249892, y: 1.4249892, z: 1.4249892}
+  m_LocalScale: {x: 1.4249892, y: 1.3537397, z: 1.4249892}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 791502738}
@@ -11833,6 +11856,10 @@ PrefabInstance:
     - target: {fileID: 432302, guid: 7ba20cf9f3bbf6a4c8c24ac0d63a8048, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19822154, guid: 7ba20cf9f3bbf6a4c8c24ac0d63a8048, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 0.38431373
       objectReference: {fileID: 0}
     - target: {fileID: 19822154, guid: 7ba20cf9f3bbf6a4c8c24ac0d63a8048, type: 3}
       propertyPath: InitialModule.startSizeY.minMaxState
@@ -12943,8 +12970,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  scaleAmount: {x: 1.2, y: 1.2}
-  animationDuration: 0.2
+  scaleAmount: {x: 0.7, y: 0.7}
+  animationDuration: 0.15
 --- !u!1 &1154590167
 GameObject:
   m_ObjectHideFlags: 0
@@ -13805,6 +13832,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Font: {fileID: 11400000, guid: 2b22255cd3f746847b8b4c3c8f195f5d, type: 2}
+  ShouldBeAutomated: 0
 --- !u!1 &1165555600 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7910013378698521453, guid: 97bce7789ce81a84b9a622256e6997b8,
@@ -13838,8 +13866,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  scaleAmount: {x: 1.2, y: 1.2}
-  animationDuration: 0.2
+  scaleAmount: {x: 0.7, y: 0.7}
+  animationDuration: 0.15
 --- !u!114 &1165555602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14768,6 +14796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Font: {fileID: 11400000, guid: 2b22255cd3f746847b8b4c3c8f195f5d, type: 2}
+  ShouldBeAutomated: 0
 --- !u!1 &1313372504
 GameObject:
   m_ObjectHideFlags: 0
@@ -15110,6 +15139,24 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2308234012600029948, guid: 28ac6dc3e205941468f2bdb55a30564b,
         type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 00b1262afb0b4974fa41a7152743b768,
+        type: 3}
+    - target: {fileID: 2308234012600029948, guid: 28ac6dc3e205941468f2bdb55a30564b,
+        type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 00b1262afb0b4974fa41a7152743b768,
+        type: 3}
+    - target: {fileID: 2308234012600029948, guid: 28ac6dc3e205941468f2bdb55a30564b,
+        type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 00b1262afb0b4974fa41a7152743b768,
+        type: 3}
+    - target: {fileID: 2308234012600029948, guid: 28ac6dc3e205941468f2bdb55a30564b,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -15321,7 +15368,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1341567223
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15726,8 +15773,8 @@ MonoBehaviour:
   englishSprite: {fileID: 0}
   hindiSprite: {fileID: 0}
   englishText: 'Add your name to the leaderboard '
-  hindiText: "\u0932\u0940\u0921\u0930\u092C\u094B\u0930\u094D\u0921 \u092E\u0947\u0902
-    \u0928\u093E\u092E \u0921\u093E\u0932\u0947\u0902"
+  hindiText: "\u0932\u0940\u0921\u0930\u092C\u094B\u0930\u094D\u0921 \u092E\u0947
+    \u0928\u093E\u092E \u0921\u093E\u0932\u0947\u0947\u0902"
   englishObject: {fileID: 0}
   hindiObject: {fileID: 0}
   setupOnAwake: 1
@@ -17525,7 +17572,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015258789, y: 71.9}
+  m_AnchoredPosition: {x: 0.000015258789, y: 83.7}
   m_SizeDelta: {x: 600.5, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1560066263
@@ -17646,8 +17693,7 @@ MonoBehaviour:
   hindiText: "\u092C\u0927\u093E\u0908 \u0939\u094B! \u0906\u092A\u0915\u093E \u0936\u0939\u0930
     \u0938\u092E\u0943\u0926\u094D\u0927 \u0939\u094B \u0930\u0939\u093E \u0939\u0948,
     \u0914\u0930 \u0906\u092A\u0928\u0947 \u090F\u0915 \u0928\u092F\u093E \u0909\u091A\u094D\u091A
-    \u0938\u094D\u0915\u094B\u0930 \u0938\u094D\u0925\u093E\u092A\u093F\u0924 \u0915\u093F\u092F\u093E
-    \u0939\u0948!"
+    \u0938\u094D\u0915\u094B\u0930 \u092A\u093E\u092F\u093E \u0939\u0948!"
   englishObject: {fileID: 0}
   hindiObject: {fileID: 0}
   setupOnAwake: 1
@@ -17989,7 +18035,7 @@ RectTransform:
   m_GameObject: {fileID: 1637254907}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1.5809}
-  m_LocalScale: {x: 1.3655556, y: 1.3655556, z: 1.3655556}
+  m_LocalScale: {x: 1.3655556, y: 1.1948475, z: 1.3655556}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 834175750}
@@ -18410,8 +18456,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  scaleAmount: {x: 1.2, y: 1.2}
-  animationDuration: 0.1
+  scaleAmount: {x: 0.7, y: 0.7}
+  animationDuration: 0.15
 --- !u!114 &1643200392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18425,6 +18471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Font: {fileID: 11400000, guid: 2b22255cd3f746847b8b4c3c8f195f5d, type: 2}
+  ShouldBeAutomated: 0
 --- !u!1 &1645336845
 GameObject:
   m_ObjectHideFlags: 0
@@ -18671,6 +18718,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ShouldRunOnStart: 0
+  scd: {fileID: 0}
 --- !u!4 &1679928629
 Transform:
   m_ObjectHideFlags: 0
@@ -19652,6 +19700,24 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 591501604}
     m_Modifications:
+    - target: {fileID: 2308234012600029948, guid: 28ac6dc3e205941468f2bdb55a30564b,
+        type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8fac189d00a57c14dae2c3bcfdc92708,
+        type: 3}
+    - target: {fileID: 2308234012600029948, guid: 28ac6dc3e205941468f2bdb55a30564b,
+        type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8fac189d00a57c14dae2c3bcfdc92708,
+        type: 3}
+    - target: {fileID: 2308234012600029948, guid: 28ac6dc3e205941468f2bdb55a30564b,
+        type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8fac189d00a57c14dae2c3bcfdc92708,
+        type: 3}
     - target: {fileID: 2308234012600029948, guid: 28ac6dc3e205941468f2bdb55a30564b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -20803,6 +20869,8 @@ MonoBehaviour:
   screenshotCopied: {fileID: 2096843632}
   shareIntent: {fileID: 6049180681941736852}
   winUIParent: {fileID: 1181415631}
+  IsSharing: 0
+  IsSharingText: 0
 --- !u!1 &1925861921
 GameObject:
   m_ObjectHideFlags: 0
@@ -21590,7 +21658,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 68f54ea8dbb086746af72da62f57dcec, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f8e4d5f816c78d145b98e5a45c1a6fa4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21623,7 +21691,7 @@ MonoBehaviour:
   image: {fileID: 2017282627}
   text: {fileID: 0}
   englishSprite: {fileID: 21300000, guid: 68f54ea8dbb086746af72da62f57dcec, type: 3}
-  hindiSprite: {fileID: 21300000, guid: 694f5f6142438504697efa98ecc6dc86, type: 3}
+  hindiSprite: {fileID: 21300000, guid: f8e4d5f816c78d145b98e5a45c1a6fa4, type: 3}
   englishText: 
   hindiText: 
   englishObject: {fileID: 0}
@@ -21644,7 +21712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnglishSprite: {fileID: 21300000, guid: 68f54ea8dbb086746af72da62f57dcec, type: 3}
-  HindiSprite: {fileID: 21300000, guid: 694f5f6142438504697efa98ecc6dc86, type: 3}
+  HindiSprite: {fileID: 21300000, guid: f8e4d5f816c78d145b98e5a45c1a6fa4, type: 3}
   M_ImageSettings: 0
   HindiIncrementSettings: {x: 0, y: 0}
   EnglishIncrementSettings: {x: 0, y: 0}
@@ -22210,7 +22278,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2096843633
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23075,6 +23143,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2857071854643210888, guid: 0bd4eda0eb8c02a4586cffda175159c2,
         type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a65fd94bc88817444ac47aa7488d5ecb,
+        type: 2}
+    - target: {fileID: 2857071854643210888, guid: 0bd4eda0eb8c02a4586cffda175159c2,
+        type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -23095,8 +23169,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2857071854643210888, guid: 0bd4eda0eb8c02a4586cffda175159c2,
         type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6564242634039516443, guid: a65fd94bc88817444ac47aa7488d5ecb,
+        type: 2}
+    - target: {fileID: 2857071854643210888, guid: 0bd4eda0eb8c02a4586cffda175159c2,
+        type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857071854643210888, guid: 0bd4eda0eb8c02a4586cffda175159c2,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3108817776904900002, guid: 0bd4eda0eb8c02a4586cffda175159c2,
         type: 3}
@@ -23441,6 +23526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Font: {fileID: 11400000, guid: 2b22255cd3f746847b8b4c3c8f195f5d, type: 2}
+  ShouldBeAutomated: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
