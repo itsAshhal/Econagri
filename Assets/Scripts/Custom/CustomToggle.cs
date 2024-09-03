@@ -20,6 +20,8 @@ public class CustomToggle : MonoBehaviour
     [SerializeField] Vector2 HindiIncrementSettings;
     [SerializeField] Vector2 EnglishIncrementSettings;
     public bool SetImageSizeManually = false;
+    public bool AnimatedManually = false;
+    public float ManualAniamtionDelay = .5f;
     void OnEnable()
     {
         Debug.Log($"Custom toggle language is {GameData.language.ToString()}");
@@ -48,6 +50,13 @@ public class CustomToggle : MonoBehaviour
         }
     }
 
+    IEnumerator AnimateManullyCoroutine()
+    {
+        m_image.enabled = false;
+        yield return new WaitForSeconds(ManualAniamtionDelay);
+        m_image.enabled = true;
+    }
+
     /// <summary>
     ///  In case OnEnable is not called, we can also set this up manually
     /// </summary>
@@ -55,6 +64,12 @@ public class CustomToggle : MonoBehaviour
     {
         Debug.Log($"As the language is changed, langauge is {GameData.language}");
         // m_image.sprite = GameData.language == Language.English ? EnglishSprite : HindiSprite;
+
+        if (AnimatedManually)
+        {
+            StartCoroutine(AnimateManullyCoroutine());
+            //return;
+        }
 
         var currentLocale = LocalizationSettings.SelectedLocale;
         if (currentLocale.Identifier.Code == "en")
