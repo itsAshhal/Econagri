@@ -17,7 +17,19 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: d844d99781274cc41898ee8890119147, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 16795351113728
+    m_Localized: Place a tile on any available space next to an existing tile to
+      start building your Clean City.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24381781696512
+    m_Localized: "Where you place a tile affects your city\u2019s GDP and AQI differently.
+      GDP is a measure of how prosperous your city is. In this game, the GDP is your
+      score. AQI is a measure of how polluted your city is. If your AQI reaches 100,
+      the game is over."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

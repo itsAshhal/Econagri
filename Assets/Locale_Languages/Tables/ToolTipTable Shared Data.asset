@@ -14,7 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: ToolTipTable
   m_TableCollectionNameGuidString: d844d99781274cc41898ee8890119147
-  m_Entries: []
+  m_Entries:
+  - m_Id: 16795351113728
+    m_Key: StartGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24381781696512
+    m_Key: HoverOverTile
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

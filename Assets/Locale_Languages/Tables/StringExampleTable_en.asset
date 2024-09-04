@@ -91,6 +91,10 @@ MonoBehaviour:
     m_Localized: Tool Tips
     m_Metadata:
       m_Items: []
+  - m_Id: 8010497453449216
+    m_Localized: Team
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

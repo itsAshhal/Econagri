@@ -79,6 +79,10 @@ MonoBehaviour:
     m_Key: Tool tip
     m_Metadata:
       m_Items: []
+  - m_Id: 8010497453449216
+    m_Key: Team
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
